@@ -22,3 +22,6 @@ Possuindo 2 idiomas atualmente, Inglês (ENG) e Português (PT-BR).
 - Adicionar musica de fundo
 - Adicionar som de notificação/alarme ao finalizar um ciclo para alertar o usuário
 - Adicionar uma função manual pnde o usuário pode aumentar o tempo de Foco / Pausa / Pausa Longa
+- Criar uma DIV redonda com um planeta dentro, com o usuário podendo escolher qual planeta do sistema solar escolher (Mercúrio, Vênus, Terra, Marte, Jupiter, Saturno, Urano, Netuno)
+- Adicionar Sol uma opção de decpração detalhada, onde além de simples background de estrelas, terá o Sol durante o tempo de Foco e a lua durante a "Pausa" e "Pausa Longa"
+- Criar uma logo
