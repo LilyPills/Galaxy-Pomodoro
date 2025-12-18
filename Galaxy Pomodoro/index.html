@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Galáxia - Foco Espacial</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Outfit:wght@300;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="stars-container"></div>
+    <div id="nebula"></div>
+
+    <div id="audio-controls">
+        <button id="toggle-lang" class="audio-btn" title="Mudar Idioma / Change Language">
+            <span id="lang-text">EN</span>
+        </button>
+        <button id="toggle-audio" class="audio-btn" title="Alternar Música">
+            <span id="audio-icon">🔈</span>
+        </button>
+    </div>
+
+    <main class="container">
+        <header>
+            <h1 data-i18n="title">Pomodoro Galáxia</h1>
+            <p class="subtitle" data-i18n="subtitle">Mantenha o foco entre as estrelas</p>
+        </header>
+
+        <section class="timer-card">
+            <div class="timer-modes">
+                <button id="focus-mode" class="mode-btn active" data-i18n="focus">Foco</button>
+                <button id="break-mode" class="mode-btn" data-i18n="break">Pausa</button>
+                <button id="long-break-mode" class="mode-btn" data-i18n="longBreak">Pausa Longa</button>
+            </div>
+
+            <div class="cycle-indicator">
+                <span data-i18n="cycle">Ciclo</span>: <span id="current-cycle">1</span>/4
+            </div>
+
+            <div class="timer-display">
+                <span id="minutes">25</span>:<span id="seconds">00</span>
+            </div>
+
+            <div class="timer-controls">
+                <button id="start-pause" class="control-btn primary" data-i18n="start">Iniciar</button>
+                <button id="reset" class="control-btn secondary" data-i18n="reset">Reiniciar</button>
+
+                <div class="auto-toggle-container">
+                    <label class="switch">
+                        <input type="checkbox" id="auto-mode">
+                        <span class="slider round"></span>
+                    </label>
+                    <span data-i18n="autoMode">Modo Automático</span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p data-i18n="footer">Técnica Pomodoro: 25 min foco / 5 min pausa / 15 min pausa longa</p>
+        </footer>
+    </main>
+
+    <!-- YouTube Iframe for background music -->
+    <iframe id="youtube-player" width="640" height="360" src="about:blank" frameborder="0"
+        allow="autoplay; encrypted-media" style="position: fixed; top: -1000px; left: -1000px; pointer-events: none;">
+    </iframe>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
