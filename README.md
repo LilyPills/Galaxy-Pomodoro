@@ -1,5 +1,7 @@
 # Galaxy-Pomodoro
-Site de produtividade baseado na técnica Pomodoro, com tema de galáxia que cria um ambiente imersivo e tranquilo. Possui timer regressivo para foco e pausas, ajudando a organizar tarefas, manter a concentração e aumentar a produtividade de forma simples, visual e inspiradora.
+Site de produtividade baseado na técnica Pomodoro, com tema de galáxia que cria um ambiente imersivo e tranquilo. Possui timer regressivo para foco e pausas, ajudando a organizar tarefas, manter a concentração e aumentar a produtividade de forma simples, visual e inspiradora. 
+Técnica Pomodoro: 25 min foco / 5 min pausa / 15 min pausa longa 
+                  (25 min / 5 min / 15 min)
 
 ----
 ----
@@ -8,4 +10,15 @@ Este site foi desenvolvido para ajudar na concentração e produtividade por mei
 
 A aplicação conta com um timer Pomodoro intuitivo, que realiza a contagem regressiva do tempo de foco e das pausas, permitindo ao usuário organizar melhor suas atividades. O design é simples e minimalista, priorizando a usabilidade, enquanto a temática galáctica transforma o momento de concentração em uma experiência mais agradável e envolvente.
 
-O site é ideal para estudantes, profissionais e qualquer pessoa que deseje manter o foco, gerenciar o tempo e aumentar a produtividade de forma prática e visualmente inspiradora.
+O site é ideal para estudantes, profissionais e qualquer pessoa que deseje manter o foco, gerenciar o tempo e aumentar a produtividade de forma prática e visualmente confortável.
+
+Possuindo 2 idiomas atualmente, Inglês (ENG) e Português (PT-BR).
+
+
+----
+# EM PROCESSO:
+
+- Adicionar um funndo degradê remetendo a galáxia
+- Adicionar musica de fundo
+- Adicionar som de notificação/alarme ao finalizar um ciclo para alertar o usuário
+- Adicionar uma função manual pnde o usuário pode aumentar o tempo de Foco / Pausa / Pausa Longa
