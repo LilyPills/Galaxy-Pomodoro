@@ -20,7 +20,7 @@ Possuindo 2 idiomas atualmente, Inglês (ENG) e Português (PT-BR).
 
 ✔ Adicionar um funndo degradê remetendo a galáxia
 - Adicionar musica de fundo
-- Adicionar som de notificação/alarme ao finalizar um ciclo para alertar o usuário
+- Adicionar som de notificação/alarme ao finalizar um ciclo para alertar o usuário (sem um cancelar o outro, o alarme não poderá ser mutado)
 - Adicionar uma função manual onde o usuário pode aumentar o tempo de Foco / Pausa / Pausa Longa
 ✔ Criar uma DIV redonda com um planeta dentro, com o usuário podendo escolher qual planeta do sistema solar escolher (Mercúrio, Vênus, Terra, Marte, Jupiter, Saturno, Urano, Netuno)
 ✔ Adicionar Sol uma opção de decoração detalhada, onde além de simples background de estrelas, terá o Sol durante o tempo de Foco e a lua durante a "Pausa" e "Pausa Longa"
